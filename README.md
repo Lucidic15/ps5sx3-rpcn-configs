@@ -44,6 +44,7 @@ Most games use DNS 8.8.8.8, RPCS3's default. 86 games have a fan-made custom ser
 | `20.101.151.59` | Fuel |
 | `52.86.120.101` | PlayStation: Home |
 | `72.56.104.67` | Need for Speed Carbon |
+| `136.55.254.47` | Call of Duty: Modern Warfare 2, BLUS30377 only (this DNS isn't from the RPCS3 wiki) |
 
 ### IP/Host switches
 

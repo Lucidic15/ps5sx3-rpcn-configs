@@ -7,6 +7,9 @@
 Net:
   Internet enabled: "Connected"
   PSN status: "RPCN"
-  DNS address: "8.8.8.8"
+  # Custom DNS server (not from the RPCS3 wiki)
+  DNS address: "136.55.254.47"
+  # RPCN DNS
+  # DNS address: "8.8.8.8"
   # Lets RPCS3 ask the router to forward the ports the game listens on.
   UPNP Enabled: true
