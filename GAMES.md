@@ -97,7 +97,7 @@ Every game with a config in this repo, from the RPCS3 wiki's RPCN Compatibility 
 | Call of Duty: Black Ops 3 | No | No | Not available |  | BLES02166, BLUS31527, NPEB02266, NPUB31665 |
 | Call of Duty: Ghosts | No | No | Not available |  | BLES01945, BLES01948, BLJM61126, BLUS31270, NPEB01832, NPEB01835, NPUB31301 |
 | Call of Duty: Ghosts Multiplayer Demo | Not tested | Not tested | Not tested |  | NPEB90534, NPUB91004 |
-| Call of Duty: Modern Warfare 2 | No | No | Not available | DNS `136.55.254.47` (BLUS30377 only) | BLES00683, BLES00685, BLES00687, BLES00690, BLES00691, BLJM60191, BLUS30377, BLUS30429, NPEB00731, NPUB30585 |
+| Call of Duty: Modern Warfare 2 | No | No | Not available | IP/Host switches (BLUS30377 only) | BLES00683, BLES00685, BLES00687, BLES00690, BLES00691, BLJM60191, BLUS30377, BLUS30429, NPEB00731, NPUB30585 |
 | Call of Duty: Modern Warfare 3 | Not tested | Not tested | Not tested |  | BLES01428, BLES01430, BLES01431, BLES01432, BLES01433, BLES01434, BLJM60404, BLUS30838, NPUB30787 |
 | Call of Duty: World at War | Yes | Yes | Available | DNS `67.222.156.250` | BLES00354, BLES00355, BLES00357, BLES00404, BLES00457, BLKS20098, BLUS30192 |
 | Call of Juarez: Bound in Blood | Untested | Untested | Not required |  | BLES00556, BLUS30347, NPEB00532, NPUB30637 |

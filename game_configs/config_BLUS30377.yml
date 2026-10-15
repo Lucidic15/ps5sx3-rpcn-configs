@@ -7,9 +7,12 @@
 Net:
   Internet enabled: "Connected"
   PSN status: "RPCN"
-  # Custom DNS server (not from the RPCS3 wiki)
-  DNS address: "136.55.254.47"
   # RPCN DNS
-  # DNS address: "8.8.8.8"
+  DNS address: "8.8.8.8"
+  # Custom DNS server (not from the RPCS3 wiki). It freezes the game at boot while that server is down.
+  # DNS address: "136.55.254.47"
+  # IP/Host switches: MW2's server names go straight to the community server, so the game never waits on its DNS.
+  # 136.55.254.47 is a guess (the server's DNS address) until the server is up; the names match its DNS redirects.
+  IP swap list: "mw2-ps3-auth.mmp3.demonware.net=136.55.254.47&&mw2-ps3-lsg.live.mmp3.demonware.net=136.55.254.47&&mw2-stun.us.demonware.net=136.55.254.47&&mw2-stun.eu.demonware.net=136.55.254.47&&web1.ps3.iw4.iwnet.infinityward.com=136.55.254.47"
   # Lets RPCS3 ask the router to forward the ports the game listens on.
   UPNP Enabled: true

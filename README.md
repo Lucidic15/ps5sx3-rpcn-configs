@@ -44,7 +44,6 @@ Most games use DNS 8.8.8.8, RPCS3's default. 86 games have a fan-made custom ser
 | `20.101.151.59` | Fuel |
 | `52.86.120.101` | PlayStation: Home |
 | `72.56.104.67` | Need for Speed Carbon |
-| `136.55.254.47` | Call of Duty: Modern Warfare 2, BLUS30377 only (this DNS isn't from the RPCS3 wiki) |
 
 ### IP/Host switches
 
@@ -60,6 +59,7 @@ These games keep DNS 8.8.8.8 and send only the hostnames below to the custom ser
 | Buzz! Quiz TV | `buzzps3.online.scee.com=57.131.197.223` |
 | Buzz! Quiz World | `buzzps3.online.scee.com=57.131.197.223` |
 | Buzz! The Ultimate Music Quiz | `buzzps3.online.scee.com=57.131.197.223` |
+| Call of Duty: Modern Warfare 2, BLUS30377 only (not from the RPCS3 wiki; the server's IP is unconfirmed) | `mw2-ps3-auth.mmp3.demonware.net=136.55.254.47 && mw2-ps3-lsg.live.mmp3.demonware.net=136.55.254.47 && mw2-stun.us.demonware.net=136.55.254.47 && mw2-stun.eu.demonware.net=136.55.254.47 && web1.ps3.iw4.iwnet.infinityward.com=136.55.254.47` |
 | Demon's Souls | `ds-eu-c.scej-online.jp=206.189.232.242 && ds-eu-g.scej-online.jp=206.189.232.242 && c.demons-souls.com=206.189.232.242 && g.demons-souls.com=206.189.232.242 && cmnap.scej-online.jp=206.189.232.242 && demons-souls.scej-online.jp=206.189.232.242` |
 | Medal of Honor: Airborne | `theater.ps3.arcadia=152.53.15.83 && mohair-ps3.fesl.ea.com=152.53.15.83` |
 | Mercenaries 2: World in Flames | `theater.ps3.arcadia=152.53.15.83 && mercs2-ps3.fesl.ea.com=152.53.15.83` |
