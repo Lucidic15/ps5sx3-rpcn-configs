@@ -1,0 +1,14 @@
+# James Cameron's Avatar: The Game (BLES00753).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies Yes, matching Yes, online features Yes; custom server
+# available.
+# Notes: Revived by PS3 REBORN. Requires a custom IP Host Switch: onlineconfigservice.ubi.com==85.90.247.249
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  # The custom server listed on this game's RPCS3 wiki page. The wiki's notes also give the switch onlineconfigservice.ubi.com=85.90.247.249 (PS3 REBORN).
+  DNS address: "146.190.205.197"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

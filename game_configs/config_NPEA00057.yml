@@ -1,0 +1,15 @@
+# WipEout HD (NPEA00057).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies Yes, matching Yes, online features Yes; custom server
+# available.
+# Notes: Requires custom IP/Hosts switches.
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  DNS address: "8.8.8.8"
+  # IP/Host switches from this game's RPCS3 wiki page. The wiki also lists the same two hosts pointed at 185.194.142.4.
+  IP swap list: "wipeout2048.muis.online.scee.com=147.135.213.57&&wipeout2048.online.scee.com=147.135.213.57"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

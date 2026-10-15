@@ -1,0 +1,16 @@
+# Minecraft (NPEB01899).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies Yes, matching Yes, online features Yes; custom server not
+# required.
+# Notes: RPCN 1.0 - 2024/01/14. **If you are crashing or freezing when trying to go to "Play Game" or "Mini Games", you
+# must pre-load all the skins in the "Help & Options" menu, video demonstration.** https://i.imgur.com/wJWi7Au.mp4, you
+# can also try clearing the cache by right-clicking the game, going to remove and then "Remove All Cache" while still
+# doing the preloading step.
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  DNS address: "8.8.8.8"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

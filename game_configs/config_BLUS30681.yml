@@ -1,0 +1,14 @@
+# Transformers: Fall of Cybertron (BLUS30681).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Untested, lobbies Untested, matching Untested, online features
+# Untested; custom server available.
+# Notes: Requires custom IP/Hosts switches.
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  # The custom server listed on this game's RPCS3 wiki page.
+  DNS address: "209.38.53.69"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

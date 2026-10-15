@@ -1,0 +1,14 @@
+# MotorStorm: Apocalypse (BCES01104).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies Yes, matching Yes, online features Partial; custom server
+# available.
+# Notes: New server has been created by PS Rewired.
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  # The custom server listed on this game's RPCS3 wiki page.
+  DNS address: "67.222.156.250"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

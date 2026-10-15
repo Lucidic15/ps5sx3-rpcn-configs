@@ -1,0 +1,15 @@
+# Tom Clancy's Ghost Recon: Future Soldier (BLES00922).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies Yes, matching Yes, online features Yes; custom server
+# available.
+# Notes: Requires a DNS or a custom IP Host Switch. UPlay Passport is required for the online co-op modes. Features
+# cross-play with PS3 users.
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  # The custom server listed on this game's RPCS3 wiki page.
+  DNS address: "146.190.205.197"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

@@ -1,0 +1,15 @@
+# Demon's Souls (NPUB30910).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies Yes, matching Yes, online features Yes; custom server
+# available.
+# Notes: Requires custom IP/Hosts switches. Alternatively players can host their own server.
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  DNS address: "8.8.8.8"
+  # IP/Host switches from this game's RPCS3 wiki page.
+  IP swap list: "ds-eu-c.scej-online.jp=206.189.232.242&&ds-eu-g.scej-online.jp=206.189.232.242&&c.demons-souls.com=206.189.232.242&&g.demons-souls.com=206.189.232.242&&cmnap.scej-online.jp=206.189.232.242&&demons-souls.scej-online.jp=206.189.232.242"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

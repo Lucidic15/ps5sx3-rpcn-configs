@@ -1,0 +1,13 @@
+# Sonic & All-Stars Racing Transformed (NPEB01232).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies Yes, matching Yes, online features Partial; custom server
+# not required.
+# Notes: Matchmaking and leaderboards work. Private matches currently don't work as players cannot view/accept invites.
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  DNS address: "8.8.8.8"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

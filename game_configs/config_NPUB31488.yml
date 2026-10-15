@@ -1,0 +1,13 @@
+# Hatsune Miku: Project DIVA F 2nd (NPUB31488).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies N/A, matching N/A, online features Untested; custom server
+# untested.
+# Notes: Allows access to the Network menu required to edit user's profile to unlock special events. Log file
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  DNS address: "8.8.8.8"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

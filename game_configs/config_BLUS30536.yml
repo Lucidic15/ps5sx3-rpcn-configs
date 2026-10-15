@@ -1,0 +1,15 @@
+# Driver: San Francisco (BLUS30536).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies No, matching No, online features Partial; custom server
+# available.
+# Notes: Requires Uplay Passport to connect online. You can free drive, use the director mode, and upload times in the
+# "Blast in the Past" challenge (accessing leaderboard is prone to softlock).
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  # The custom server listed on this game's RPCS3 wiki page.
+  DNS address: "51.79.41.185"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

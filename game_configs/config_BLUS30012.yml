@@ -1,0 +1,16 @@
+# Call of Duty 3 (BLUS30012).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies Yes, matching Yes, online features Yes; custom server
+# available.
+# Notes: To play online, you must first launch the game on the default configuration while connected to RPCN and install
+# 2 mandatory patches before switching to the custom configuration. Features cross-play with PS3 users. NOTE: If you're
+# experiencing issues with joining players, you can forward Port 3074 TCP and UDP.
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  # The custom server listed on this game's RPCS3 wiki page.
+  DNS address: "146.190.205.197"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

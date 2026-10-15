@@ -1,0 +1,16 @@
+# Ace Combat Infinity (NPUB31347).
+# Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
+# game over them; a configuration file you made yourself is never replaced.
+# Online through RPCN: sign in to RPCN, on its official server, first.
+# RPCS3 wiki's RPCN Compatibility List: connects Partial, lobbies No, matching No, online features Partial; custom
+# server available.
+# Notes: RPCN 1.8.6 - Requires custom IP/Hosts switches. Requires game patch. A connection error will appear when first
+# entering the game but it can be safely ignored. Restarting the game will wipe all save data.
+Net:
+  Internet enabled: "Connected"
+  PSN status: "RPCN"
+  DNS address: "8.8.8.8"
+  # IP/Host switches from this game's RPCS3 wiki page.
+  IP swap list: "dev-wind.siliconstudio.co.jp=127.0.0.1"
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
+  UPNP Enabled: true

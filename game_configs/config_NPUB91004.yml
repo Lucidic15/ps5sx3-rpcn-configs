@@ -7,5 +7,5 @@ Net:
   Internet enabled: "Connected"
   PSN status: "RPCN"
   DNS address: "8.8.8.8"
-  # Lets RPCS3 ask the router to forward the ports the game listens on (UDP 3074 for Call of Duty's matches).
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
   UPNP Enabled: true

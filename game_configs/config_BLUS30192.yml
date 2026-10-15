@@ -2,14 +2,16 @@
 # Shipped with the title: the launcher writes these into the game's custom configuration, with the options chosen for the
 # game over them; a configuration file you made yourself is never replaced.
 # Online through RPCN: sign in to RPCN, on its official server, first.
-# RPCS3 wiki's RPCN Compatibility List: works (update 1.07) with the community server's DNS below.
+# RPCS3 wiki's RPCN Compatibility List: connects Yes, lobbies Yes, matching Yes, online features Yes; custom server
+# available.
+# Notes: Requires custom DNS.
 Net:
   Internet enabled: "Connected"
   PSN status: "RPCN"
-  # The community World at War server (RPCS3 wiki; youtu.be/d3bFId8nQm8): it points the game's online lookups at it.
+  # The custom server listed on this game's RPCS3 wiki page.
   # PS Rewired DNS
   DNS address: "67.222.156.250"
   # RPCN DNS
   # DNS address: "8.8.8.8"
-  # Lets RPCS3 ask the router to forward the ports the game listens on (UDP 3074 for Call of Duty's matches).
+  # Lets RPCS3 ask the router to forward the ports the game listens on.
   UPNP Enabled: true
