@@ -8,8 +8,8 @@ Net:
   PSN status: "RPCN"
   # The community World at War server (RPCS3 wiki; youtu.be/d3bFId8nQm8): it points the game's online lookups at it.
   # PS Rewired DNS
-  # DNS address: "67.222.156.250"
+  DNS address: "67.222.156.250"
   # RPCN DNS
-  DNS address: "8.8.8.8"
+  # DNS address: "8.8.8.8"
   # Lets RPCS3 ask the router to forward the ports the game listens on (UDP 3074 for Call of Duty's matches).
   UPNP Enabled: true
